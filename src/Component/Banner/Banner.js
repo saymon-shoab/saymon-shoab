@@ -4,7 +4,6 @@ import saymon from './../../image/saymon2.png'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import Typical from 'react-typical'
 
-// import content from '../../Content/Content';
 const Banner = () => {
     return (
         <div className="min-h-screen flex items-center justify-center"

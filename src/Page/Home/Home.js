@@ -4,6 +4,8 @@ import Banner from '../../Component/Banner/Banner';
 import ParticlesBg from 'particles-bg'
 import Footer from '../../Component/Share/Footer/Footer'
 import Contact from '../../Component/Contact/Contact';
+import About from '../../Component/About/About';
+import Project from '../../Component/Project/Project';
 const Home = () => {
     return (
         <>
@@ -11,6 +13,8 @@ const Home = () => {
         <Banner />
         <ParticlesBg color="#" num={6} type="square" bg={true} />
         </div>
+        <About />
+        <Project />
         <Contact />
          <Footer />
         </>
