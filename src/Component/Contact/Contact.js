@@ -1,8 +1,8 @@
 import { faMailBulk, faMapMarkedAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import email from '../../image/email.jpg'
+// import { LazyLoadImage } from 'react-lazy-load-image-component';
+// import email from '../../image/email.jpg'
 import Form from './Form';
 const Contact = () => {
     return (
@@ -11,8 +11,8 @@ const Contact = () => {
                 <div className="text-center text-white text-4xl">
                     <h1>Get In Touch <br/> <span className="text-red-600">-------</span></h1>
                 </div>
-                {/* <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between text-gray-50 text-1xl"> */}
-                <div className="flex flex-wrap text-center lg:col-span-3 md:col-span-3 sm:col-span-1 items-center text-gray-50 text-1xl justify-center">
+                <div className="grid grid-cols-1 lg:grid-cols-3 text-center text-gray-50 text-1xl items-center justify-center">
+                {/* <div className="flex flex-wrap  lg:col-span-3 md:col-span-3 sm:col-span-1  text-gray-50 text-1xl "> */}
                     <div className="">
                     <FontAwesomeIcon
                       style={{ width: "350px", height: "50px" }}
@@ -47,7 +47,7 @@ const Contact = () => {
                      <Form />
                 </div>
                 <div className="w-1/2 ">
-                    <LazyLoadImage className="w-96" src={email} />
+                    <img className="w-96" src="https://i.ibb.co/HxwmdXs/Mobile-messaging-Modern-communication-technology-online-chatting-SMS-texting-Modern-leisure-activity.jpg" />
                 </div>
                
                 </div>

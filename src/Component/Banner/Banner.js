@@ -1,6 +1,6 @@
 import React from 'react';
 import {LazyLoadImage } from 'react-lazy-load-image-component';
-import saymon from './../../image/saymon2.png'
+// import saymon from '../../../image/saymon2.png'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import Typical from 'react-typical'
 
@@ -13,7 +13,7 @@ const Banner = () => {
         >
             <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
             <div className="w-full w-3/3">
-            <LazyLoadImage src={saymon} delayTime="5000"  placeholderSrc=""/>
+            <LazyLoadImage src="https://i.ibb.co/K7p9WZx/saymon2.png" delayTime="5000"  placeholderSrc=""/>
             </div>
 
             <div className="md:text-left w:2/5">

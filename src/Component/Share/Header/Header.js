@@ -1,9 +1,11 @@
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import MenuIcon from '../../../image/bars-solid.svg'
-import CloseIcon from '../../../image/window-close-regular.svg'
-// import { GrDocumentDownload } from 'react-icons/gr';
-//  
+// import MenuIcon from '../../../image/bars-solid.svg'
+// import CloseIcon from '../../../image/window-close-regular.svg'
+// // import { GrDocumentDownload } from 'react-icons/gr';
+// //  
 
 
   
@@ -31,7 +33,7 @@ export default function Header  () {
             </ul>
             
             <button onClick={()=>{showSideMenu()}} className="lg:hidden menu-button">
-                {(isSideMenuOpen) ? <img src={CloseIcon} className="w-8 h-8 px-2" alt="close"></img> : <img src={MenuIcon} className="w-8 h-8 px-2" alt="menu"></img>}
+                {(isSideMenuOpen) ? <FontAwesomeIcon className="w-8 h-8" icon={faTimes} /> : <FontAwesomeIcon className="w-8 h-8" icon={faBars} /> }
             </button>
             {(isSideMenuOpen) ? SideMenu() : ''}
         </div>
