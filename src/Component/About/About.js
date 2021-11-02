@@ -10,7 +10,7 @@ const About = () => {
                 <LazyLoadImage src="https://i.ibb.co/GJnVHcw/aboutsaymon.png" delayTime="2000"  placeholderSrc="" />
             </div>
             <div className="w-full lg:w-4/6 text-white">
-                <h1 className="text-center  divide-y divide-yellow-500 text-4xl ">About Me</h1>
+                <h1 className="text-center  divide-y divide-yellow-500 text-4xl">About Me</h1>
                 
                 <p className="text-white mt-5 ml-4 text-2xl">I'm an enthusiastic, responsible and hard working person. I’m always hungry for new technologies, a great fascination with programming and web development. I’m comfortable with Javascript (ES6), Node.js, React.js, Next.js, Express.Js, Bootstrap, Tailwind.css, Material UI, HTML5, CSS3, Firebase, and MongoDB.</p>
                 <p className="mt-5 ml-4 text-2xl">I want to be Professional Full Stack Developer, it's my dream.I love to learn new tech and new languages.</p>
